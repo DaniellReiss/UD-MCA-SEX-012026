@@ -5,3 +5,11 @@ Semestre: 3º
 Bairro: SBC
 Se trabalha: Marketing Digital
 Objetivo: Atuar com Engenharia de Software
+
+Nome: Henrique Morais da Silva
+RA: 825153822
+Curso: Engenharia de Software
+Semestre: 3º
+Bairro: Pq. São Rafael
+Se trabalha: Professor de Inglês
+Objetivo: Atuar com Engenharia de Software
