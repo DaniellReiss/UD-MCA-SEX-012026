@@ -6,6 +6,14 @@ Bairro: SBC
 Se trabalha: Marketing Digital
 Objetivo: Atuar com Engenharia de Software
 
+Nome: Luan Bezerra
+RA: 825154264
+Curso: Engenharia de Software
+Semestre: 3º
+Bairro: Sapopemba
+Se trabalha: Contabilidade
+Objetivo: Atuar com Engenharia de Software
+
 Nome: vitor
 RA: 82524612
 Curso: Engenharia de Software
