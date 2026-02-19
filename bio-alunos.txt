@@ -27,6 +27,7 @@ Curso: Engenharia de Software
 Semestre: 3º
 Bairro: Pq. São Rafael
 Se trabalha: Professor de Inglês
+Objetivo: Atuar na área de desenvolvimento de games 
 
 Nome: Cauê Lemos de Carvalho
 RA: 825148851
