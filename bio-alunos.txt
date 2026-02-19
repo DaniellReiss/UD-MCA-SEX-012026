@@ -6,6 +6,13 @@ Bairro: SBC
 Se trabalha: Marketing Digital
 Objetivo: Atuar com Engenharia de Software
 
+Nome: vitor
+RA: 82524612
+Curso: Engenharia de Software
+Semestre: 5º
+Bairro: tatuapé
+Se trabalha: redes
+
 Nome: Henrique Morais da Silva
 RA: 825153822
 Curso: Engenharia de Software
