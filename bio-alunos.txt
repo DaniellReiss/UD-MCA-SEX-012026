@@ -35,3 +35,11 @@ Semestre: 3º
 Bairro: Sapobemba
 Se trabalha: Logística
 Objetivo: Atuar com Engenharia de Software
+
+Nome: Thiago Viana Meira
+RA: 82424566
+Curso: Engenharia de Software
+Semestre: 4º
+Bairro: Itaquera
+Se trabalha: Vendas
+Objetivo: Traballhar com Engenharia de Software
