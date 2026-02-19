@@ -12,4 +12,11 @@ Curso: Engenharia de Software
 Semestre: 3º
 Bairro: Pq. São Rafael
 Se trabalha: Professor de Inglês
+
+Nome: Cauê Lemos de Carvalho
+RA: 825148851
+Curso: Engenharia de Software
+Semestre: 3º
+Bairro: Sapobemba
+Se trabalha: Logística
 Objetivo: Atuar com Engenharia de Software
