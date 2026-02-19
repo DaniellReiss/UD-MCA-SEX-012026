@@ -12,6 +12,7 @@ Curso: Engenharia de Software
 Semestre: 5º
 Bairro: tatuapé
 Se trabalha: redes
+Objetivo: Conseguir um emprego como engenheiro de software
 
 Nome: Henrique Morais da Silva
 RA: 825153822
