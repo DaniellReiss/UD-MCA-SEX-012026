@@ -5,3 +5,11 @@ Semestre: 3º
 Bairro: SBC
 Se trabalha: Marketing Digital
 Objetivo: Atuar com Engenharia de Software
+
+Nome: Cauê Lemos de Carvalho
+RA: 825148851
+Curso: Engenharia de Software
+Semestre: 3º
+Bairro: Sapobemba
+Se trabalha: Logística
+Objetivo: Atuar com Engenharia de Software
