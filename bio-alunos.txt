@@ -43,3 +43,11 @@ Semestre: 4º
 Bairro: Itaquera
 Se trabalha: Vendas
 Objetivo: Traballhar com Engenharia de Software
+
+Nome: Igor Euripedes
+RA: 824117373
+Curso: ADS
+Semestre: 5º
+Bairro: Santana
+Se trabalha: Analista
+Objetivo: Desenvolvimento e programação de software
