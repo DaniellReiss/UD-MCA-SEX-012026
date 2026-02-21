@@ -63,19 +63,20 @@ console.log("A) Posição 15:", especies[15]);
 console.log("A) Posição 18:", especies[18]);
 console.log("A) Posição 20:", especies[20]); 
 
-// B. Qual elemento está na penúltima e última posição?
+// Qual elemento está na penúltima e última posição?
 console.log("B) Penúltima posição:", especies[especies.length - 2]);
 console.log("B) Última posição:", especies[especies.length - 1]);
 
-// C. Quantos elementos existem no array?
+// Quantos elementos existem no array?
 console.log("C) Elementos Totais:", especies.length);
 
-// D. Adicione um novo elemento ao final do array.
+// Adicione um novo elemento ao final do array.
 especies.push('Aranha Armadeira');
 console.log("D) Elemento adicionado, novo tamanho:", especies.length);
 
-// E. Imprima todos os elementos usando um for.
+// Imprima todos os elementos usando um for.
 console.log("E) Imprimindo");
 for (let i = 0; i < especies.length; i++) {
   console.log(`${i}: ${especies[i]}`);
 }
+
