@@ -39,3 +39,43 @@ console.log("E) Imprimindo todos os elementos com FOR:");
 for (let i = 0; i < carrosSuperCaros.length; i++) {
   console.log(`${i}: ${carrosSuperCaros[i]}`);
 }
+
+//Thiago Viana Meira
+//RA: 8224566
+// part1.js
+// Criando o array com 20 insetos
+let especies = [
+  'Louva-a-deus', 'Barata', 'Percevejo',
+  'Libélula', 'Joaninha', 'Lagarta', 'Mariposa',
+  'Formiga', 'Formiga de Fogo', 'Abelha',
+  'Mosca', 'Borboleta', 'Besouro', 'Gafanhoto',
+  'Grilo', 'Bicho-pau', 'Vespa', 'Cigarra',
+  'Pulga', 'Cupim'
+];
+
+console.log("Parte 1");
+
+// Qual elemento está na posição 0, 7, 11, 15, 18 e 20?
+console.log("A) Posição 0:", especies[0]);
+console.log("A) Posição 7:", especies[7]);
+console.log("A) Posição 11:", especies[11]);
+console.log("A) Posição 15:", especies[15]);
+console.log("A) Posição 18:", especies[18]);
+console.log("A) Posição 20:", especies[20]); 
+
+// B. Qual elemento está na penúltima e última posição?
+console.log("B) Penúltima posição:", especies[especies.length - 2]);
+console.log("B) Última posição:", especies[especies.length - 1]);
+
+// C. Quantos elementos existem no array?
+console.log("C) Elementos Totais:", especies.length);
+
+// D. Adicione um novo elemento ao final do array.
+especies.push('Aranha Armadeira');
+console.log("D) Elemento adicionado, novo tamanho:", especies.length);
+
+// E. Imprima todos os elementos usando um for.
+console.log("E) Imprimindo");
+for (let i = 0; i < especies.length; i++) {
+  console.log(`${i}: ${especies[i]}`);
+}
