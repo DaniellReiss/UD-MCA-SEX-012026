@@ -1,3 +1,6 @@
+// Henrique Morais da Silva
+// RA: 825153822
+// part1.js
 // Criando um array com 20 elementos (Materiais de Escritório)
 let itensEscritorio = [
     'Caneta', 'Lápis', 'Borracha', 'Caderno', 'Régua', 
@@ -30,3 +33,4 @@ for (let i = 0; i < itensEscritorio.length; i++) {
 }
 
   
+
