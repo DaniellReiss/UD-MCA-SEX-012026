@@ -25,8 +25,6 @@ let materiaisEscolares = [
     { nome: 'Clipes (caixa)', preco: 5.50, estoque: 110 }
 ];
 
-// --- Respostas às perguntas da imagem ---
-
 // A. Qual é o preço do segundo objeto? (Índice 1)
 console.log("Preço do segundo objeto:", materiaisEscolares[1].preco);
 
@@ -55,3 +53,4 @@ for (let i = 1; i < materiaisEscolares.length; i++) {
     }
 }
 console.log("Objeto com maior estoque:", maiorEstoque.nome, "com", maiorEstoque.estoque, "unidades.");
+
