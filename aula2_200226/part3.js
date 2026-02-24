@@ -128,7 +128,7 @@ console.log("A) Preço do 2º objeto:", especiesvenenosas[1].preco);
 console.log("B) Nome do 3º objeto:", especiesvenenosas[2].nome);
 
 // Quantos itens existem no array?
-console.log("C) Total:", especiesVenenosas.length);
+console.log("C) Total:", especiesvenenosas.length);
 
 // Imprima o nome de todos os objetos.
 console.log("D) Nomes de todos os objetos:");
