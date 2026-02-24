@@ -210,6 +210,7 @@ console.log("E) Imprimindo todos os elementos com FOR:");
 for (let i = 0; i < jogosFamosos.length; i++) {
 
   // Identificando o gênero com base na posição
-  let genero = i < 10 ? "RPG 🎮" : "FPS 🔫";
+  let genero = i < 10 ? "RPG 🎮" : "FPS 🔫"; 
 
   console.log(`${i}: ${jogosFamosos[i]} - Gênero: ${genero}`);
+}

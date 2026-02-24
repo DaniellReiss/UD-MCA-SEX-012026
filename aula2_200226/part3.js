@@ -86,11 +86,11 @@ for (let i = 0; i < concessionariaDeLuxo.length; i++) {
 }
 
 // E. Some o total de estoque de todos os objetos.
-let somaEstoque = 0;
+let somaEstoquee = 0;
 for (let i = 0; i < concessionariaDeLuxo.length; i++) {
-  somaEstoque += concessionariaDeLuxo[i].estoque; // Pega o valor atual e soma com o próximo
+  somaEstoquee += concessionariaDeLuxo[i].estoque; // Pega o valor atual e soma com o próximo
 }
-console.log("E) Soma total do estoque:", somaEstoque);
+console.log("E) Soma total do estoque:", somaEstoquee);
 
 // F. Qual objeto possui maior estoque?
 // Essa eu tive que pensar um pouco. Comecei chutando que o primeiro é o maior e fui comparando no loop
