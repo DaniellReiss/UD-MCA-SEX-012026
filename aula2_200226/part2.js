@@ -105,3 +105,29 @@ console.log("Novo estoque:", produtoEscolar.estoque);
 // D. Imprima todas as propriedades no console.
 console.log("Dados completos do objeto:", produtoEscolar);
 
+//Igor Euripedes Garcia de Oliveira
+//RA: 824117373
+// part2.js
+console.log("--- Respostas da Parte 2 ---");
+
+// Criando o objeto com as propriedades do jogo
+let meuJogoDosSonhos = { 
+  nome: 'Monster Hunter: World',
+  genero: 'RPG de Ação',
+  preco: 249.90,
+  estoque: 2
+};
+
+// A. Como acessar o nome do objeto?
+console.log("A) Nome do jogo:", meuJogoDosSonhos.nome);
+
+// B. Como acessar o preço usando colchetes?
+console.log("B) Preço usando colchetes:", meuJogoDosSonhos['preco']);
+
+// C. Atualize o estoque para 80.
+meuJogoDosSonhos.estoque = 80;
+console.log("C) Novo estoque atualizado para:", meuJogoDosSonhos.estoque);
+
+// D. Imprima todas as propriedades no console.
+console.log("D) Imprimindo todas as propriedades no console:");
+console.log(meuJogoDosSonhos);

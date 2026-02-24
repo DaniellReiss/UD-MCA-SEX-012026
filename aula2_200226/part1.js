@@ -152,3 +152,64 @@ itensEscritorio.push('Fita Adesiva');
 for (let i = 0; i < itensEscritorio.length; i++) {
     console.log(`Elemento ${i}: ${itensEscritorio[i]}`);
 }
+
+//Igor Euripedes Garcia de Oliveira
+//RA: 824117373
+// part1.js
+// Criando o array com 20 jogos (10 RPGs e 10 FPS)
+let jogosFamosos = [
+  // RPG
+  'The Witcher 3: Wild Hunt',
+  'Elden Ring',
+  'Skyrim',
+  'Final Fantasy VII Remake',
+  'Cyberpunk 2077',
+  'Dragon Age: Inquisition',
+  'Persona 5 Royal',
+  'Baldur’s Gate 3',
+  'Monster Hunter: World',
+  'Diablo IV',
+
+  // FPS
+  'Call of Duty: Modern Warfare',
+  'Battlefield 2042',
+  'Counter-Strike 2',
+  'Valorant',
+  'DOOM Eternal',
+  'Halo Infinite',
+  'Overwatch 2',
+  'Rainbow Six Siege',
+  'Apex Legends',
+  'Far Cry 6'
+];
+
+console.log("--- Respostas da Parte 1 ---");
+
+// A. Qual elemento está na posição 0, 7, 11, 15, 18 e 20?
+// Lembrando que o array vai do índice 0 ao 19 (posição 20 será undefined inicialmente)
+console.log("A) Posição 0:", jogosFamosos[0]);
+console.log("A) Posição 7:", jogosFamosos[7]);
+console.log("A) Posição 11:", jogosFamosos[11]);
+console.log("A) Posição 15:", jogosFamosos[15]);
+console.log("A) Posição 18:", jogosFamosos[18]);
+console.log("A) Posição 20:", jogosFamosos[20]); 
+
+// B. Qual elemento está na penúltima e última posição?
+console.log("B) Penúltima posição:", jogosFamosos[jogosFamosos.length - 2]);
+console.log("B) Última posição:", jogosFamosos[jogosFamosos.length - 1]);
+
+// C. Quantos elementos existem no array?
+console.log("C) Total de elementos:", jogosFamosos.length);
+
+// D. Adicione um novo elemento ao final do array.
+jogosFamosos.push('Red Dead Redemption 2'); 
+console.log("D) Novo jogo adicionado! Novo tamanho:", jogosFamosos.length);
+
+// E. Imprima todos os elementos usando um for.
+console.log("E) Imprimindo todos os elementos com FOR:");
+for (let i = 0; i < jogosFamosos.length; i++) {
+
+  // Identificando o gênero com base na posição
+  let genero = i < 10 ? "RPG 🎮" : "FPS 🔫";
+
+  console.log(`${i}: ${jogosFamosos[i]} - Gênero: ${genero}`);

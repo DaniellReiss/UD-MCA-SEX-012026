@@ -216,3 +216,55 @@ for (let i = 1; i < materiaisEscolares.length; i++) {
 }
 console.log("Objeto com maior estoque:", maiorEstoque.nome, "com", maiorEstoque.estoque, "unidades.");
 
+//Igor Euripedes Garcia de Oliveira
+//824117373
+// parte3.js
+console.log("--- Respostas da Parte 3 ---");
+
+// Criando o array com 10 objetos (agora são jogos)
+let lojaDeGames = [
+  { nome: 'Monster Hunter: World', genero: 'RPG de Ação', preco: 249.90, estoque: 5 },
+  { nome: 'The Witcher 3', genero: 'RPG', preco: 199.90, estoque: 8 },
+  { nome: 'Elden Ring', genero: 'RPG', preco: 299.90, estoque: 3 },
+  { nome: 'Call of Duty: Modern Warfare', genero: 'FPS', preco: 279.90, estoque: 6 },
+  { nome: 'Counter-Strike 2', genero: 'FPS', preco: 0.00, estoque: 20 },
+  { nome: 'Baldur’s Gate 3', genero: 'RPG', preco: 349.90, estoque: 4 },
+  { nome: 'Halo Infinite', genero: 'FPS', preco: 149.90, estoque: 7 },
+  { nome: 'Diablo IV', genero: 'RPG', preco: 299.90, estoque: 2 },
+  { nome: 'Valorant', genero: 'FPS', preco: 0.00, estoque: 30 },
+  { nome: 'Skyrim', genero: 'RPG', preco: 99.90, estoque: 10 }
+];
+
+// A. Qual é o preço do segundo objeto?
+console.log("A) Preço do 2º objeto:", lojaDeGames[1].preco);
+
+// B. Qual é o nome do terceiro objeto?
+console.log("B) Nome do 3º objeto:", lojaDeGames[2].nome);
+
+// C. Quantos itens existem no array?
+console.log("C) Total de itens no array:", lojaDeGames.length);
+
+// D. Imprima o nome de todos os objetos.
+console.log("D) Nome de todos os jogos:");
+for (let i = 0; i < lojaDeGames.length; i++) {
+  console.log(lojaDeGames[i].nome);
+}
+
+// E. Some o total de estoque de todos os objetos.
+let somaEstoque = 0;
+for (let i = 0; i < lojaDeGames.length; i++) {
+  somaEstoque += lojaDeGames[i].estoque;
+}
+console.log("E) Soma total do estoque:", somaEstoque);
+
+// F. Qual objeto possui maior estoque?
+let jogoMaiorEstoque = lojaDeGames[0];
+
+for (let i = 1; i < lojaDeGames.length; i++) {
+  if (lojaDeGames[i].estoque > jogoMaiorEstoque.estoque) {
+    jogoMaiorEstoque = lojaDeGames[i];
+  }
+}
+
+console.log("F) Jogo com maior estoque:", jogoMaiorEstoque.nome, 
+            "com", jogoMaiorEstoque.estoque, "unidades.");
