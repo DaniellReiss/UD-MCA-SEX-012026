@@ -1,3 +1,30 @@
+//Daniel Reis Araújo Borges
+//RA: 825262646
+// part2.js
+console.log("--- Respostas da Parte 2 ---");
+
+// Criando o objeto com as propriedades que o professor pediu
+let minhaCorPerfeita = {
+  nome: 'Roxo Escuro',
+  tipo: 'Acrílica Premium',
+  preco: 500, 
+  estoque: 2
+};
+
+// A. Como acessar o nome do objeto?
+console.log("A) Nome do objeto:", minhaCorPerfeita.nome);
+
+// B. Como acessar o preço usando colchetes?
+console.log("B) Preço usando colchetes:", minhaCorPerfeita['preco']);
+
+// C. Atualize o estoque para 80.
+minhaCorPerfeita.estoque = 80;
+console.log("C) Novo estoque atualizado para:", minhaCorPerfeita.estoque);
+
+// D. Imprima todas as propriedades no console.
+console.log("D) Imprimindo todas as propriedades no console:");
+console.log(minhaCorPerfeita);
+
 //Vitor Bispo Borges
 //RA: 825242612
 // part2.js
@@ -52,6 +79,31 @@ console.log("C) Novo estoque atualizado para:", especierara.estoque);
 // D. Imprima todas as propriedades no console.
 console.log("D) Imprimindo todas as propriedades no console:");
 console.log(especierara);
+
+// Henrique Morais da Silva
+// RA: 825153822
+// part2.js
+
+// Criando o objeto 
+let produtoEscolar = {
+    nome: 'Notebook Acer',
+    cor: 'Preto',
+    preco: 3500.00,
+    estoque: 10
+};
+
+// A. Como acessar o nome do objeto?
+console.log("Nome do produto:", produtoEscolar.nome);
+
+// B. Como acessar o preço usando colchetes?
+console.log("Preço (usando colchetes):", produtoEscolar['preco']);
+
+// C. Atualize o estoque para 80.
+produtoEscolar.estoque = 80;
+console.log("Novo estoque:", produtoEscolar.estoque);
+
+// D. Imprima todas as propriedades no console.
+console.log("Dados completos do objeto:", produtoEscolar);
 
 //Igor Euripedes Garcia de Oliveira
 //RA: 824117373
