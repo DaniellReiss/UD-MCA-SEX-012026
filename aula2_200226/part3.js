@@ -34,11 +34,11 @@ for (let i = 0; i < lojaDeTintas.length; i++) {
 }
 
 // E. Some o total de estoque de todos os objetos.
-let somaEstoque = 0;
+let somaEstoque1 = 0;
 for (let i = 0; i < lojaDeTintas.length; i++) {
-  somaEstoque += lojaDeTintas[i].estoque; // Pega o valor atual e soma com o próximo
+  somaEstoque1 += lojaDeTintas[i].estoque; // Pega o valor atual e soma com o próximo
 }
-console.log("E) Soma total do estoque:", somaEstoque);
+console.log("E) Soma total do estoque:", somaEstoque1);
 
 // F. Qual objeto possui maior estoque?
 let corMaiorEstoque = lojaDeTintas[0]; 
