@@ -1,3 +1,165 @@
+//Daniel Reis Araújo Borges
+//RA: 825262646
+// parte3.js
+console.log("--- Respostas da Parte 3 ---");
+
+// Criando o array com 10 objetos (as cores e inventei uns valores pra testar)
+let lojaDeTintas = [
+  { nome: 'Azul Ultramarino', preco: 150, estoque: 10 },
+  { nome: 'Vermelho Carmesim', preco: 80, estoque: 30 },
+  { nome: 'Amarelo Ocre', preco: 50, estoque: 25 },
+  { nome: 'Verde Esmeralda', preco: 120, estoque: 15 },
+  { nome: 'Branco Titânio', preco: 60, estoque: 50 },
+  { nome: 'Preto Marfim', preco: 55, estoque: 40 },
+  { nome: 'Magenta Primário', preco: 90, estoque: 0 },
+  { nome: 'Rosa Choque', preco: 70, estoque: 20 },
+  { nome: 'Turquesa Vibrante', preco: 85, estoque: 5 },
+  { nome: 'Dourado Metálico', preco: 200, estoque: 2 }
+];
+
+// A. Qual é o preço do segundo objeto?
+// O índice 1 é o segundo elemento (a gente começa do 0, não esquece!)
+console.log("A) Preço do 2º objeto:", lojaDeTintas[1].preco);
+
+// B. Qual é o nome do terceiro objeto?
+console.log("B) Nome do 3º objeto:", lojaDeTintas[2].nome);
+
+// C. Quantos itens existem no array?
+console.log("C) Total de itens no array:", lojaDeTintas.length);
+
+// D. Imprima o nome de todos os objetos.
+console.log("D) Nome de todos os objetos:");
+for (let i = 0; i < lojaDeTintas.length; i++) {
+  console.log(lojaDeTintas[i].nome);
+}
+
+// E. Some o total de estoque de todos os objetos.
+let somaEstoque1 = 0;
+for (let i = 0; i < lojaDeTintas.length; i++) {
+  somaEstoque1 += lojaDeTintas[i].estoque; // Pega o valor atual e soma com o próximo
+}
+console.log("E) Soma total do estoque:", somaEstoque1);
+
+// F. Qual objeto possui maior estoque?
+let corMaiorEstoque = lojaDeTintas[0]; 
+
+for (let i = 1; i < lojaDeTintas.length; i++) {
+  if (lojaDeTintas[i].estoque > corMaiorEstoque.estoque) {
+    corMaiorEstoque = lojaDeTintas[i];
+  }
+}
+console.log("F) Objeto com maior estoque:", corMaiorEstoque.nome, "com", corMaiorEstoque.estoque, "unidades.");
+
+//Vitor Bispo Borges
+//RA: 825242612
+// parte3.js
+console.log("--- Respostas da Parte 3 ---");
+
+// Criando o array com 10 objetos (os carros e inventei uns valores pra testar)
+let concessionariaDeLuxo = [
+  { nome: 'Porsche 911 GT1', preco: 20000000, estoque: 1 },
+  { nome: 'Porsche 918 Spyder', preco: 8000000, estoque: 3 },
+  { nome: 'Porsche Carrera GT', preco: 5000000, estoque: 2 },
+  { nome: 'McLaren P1', preco: 7000000, estoque: 4 },
+  { nome: 'McLaren Senna', preco: 6000000, estoque: 2 },
+  { nome: 'Porsche 959', preco: 10000000, estoque: 1 },
+  { nome: 'McLaren F1', preco: 100000000, estoque: 0 },
+  { nome: 'Porsche 911 GT3 RS', preco: 2000000, estoque: 10 },
+  { nome: 'McLaren 765LT', preco: 3000000, estoque: 5 },
+  { nome: 'McLaren Speedtail', preco: 12000000, estoque: 2 }
+];
+
+// A. Qual é o preço do segundo objeto?
+// O índice 1 é o segundo elemento (a gente começa do 0, não esquece!)
+console.log("A) Preço do 2º objeto:", concessionariaDeLuxo[1].preco);
+
+// B. Qual é o nome do terceiro objeto?
+console.log("B) Nome do 3º objeto:", concessionariaDeLuxo[2].nome);
+
+// C. Quantos itens existem no array?
+console.log("C) Total de itens no array:", concessionariaDeLuxo.length);
+
+// D. Imprima o nome de todos os objetos.
+console.log("D) Nome de todos os objetos:");
+for (let i = 0; i < concessionariaDeLuxo.length; i++) {
+  console.log(concessionariaDeLuxo[i].nome);
+}
+
+// E. Some o total de estoque de todos os objetos.
+let somaEstoque = 0;
+for (let i = 0; i < concessionariaDeLuxo.length; i++) {
+  somaEstoque += concessionariaDeLuxo[i].estoque; // Pega o valor atual e soma com o próximo
+}
+console.log("E) Soma total do estoque:", somaEstoque);
+
+// F. Qual objeto possui maior estoque?
+// Essa eu tive que pensar um pouco. Comecei chutando que o primeiro é o maior e fui comparando no loop
+let carroMaiorEstoque = concessionariaDeLuxo[0]; 
+
+for (let i = 1; i < concessionariaDeLuxo.length; i++) {
+  if (concessionariaDeLuxo[i].estoque > carroMaiorEstoque.estoque) {
+    carroMaiorEstoque = concessionariaDeLuxo[i]; // Se achar um maior, ele vira o novo campeão
+  }
+}
+console.log("F) Objeto com maior estoque:", carroMaiorEstoque.nome, "com", carroMaiorEstoque.estoque, "unidades.");
+
+//Thiago Viana Meira
+//RA: 82424566
+// parte3.js
+console.log("Parte 3");
+
+let especiesvenenosas = [
+  { nome: 'Aranha-armadeira', preco: 500, estoque: 12 },
+  { nome: 'Escorpião-amarelo', preco: 300, estoque: 20 },
+  { nome: 'Viúva-negra', preco: 450, estoque: 8 },
+  { nome: 'Formiga-bala', preco: 150, estoque: 50 },
+  { nome: 'Vespa-mandarina', preco: 600, estoque: 5 },
+  { nome: 'Besouro-bombardeiro', preco: 200, estoque: 18 },
+  { nome: 'Lagarta-de-fogo', preco: 100, estoque: 25 },
+  { nome: 'Centopeia-gigante', preco: 700, estoque: 4 },
+  { nome: 'Mosca-tsé-tsé', preco: 350, estoque: 14 },
+  { nome: 'Carrapato-estrela', preco: 80, estoque: 40 }
+];
+
+// Qual é o preço do segundo objeto?
+console.log("A) Preço do 2º objeto:", especiesvenenosas[1].preco);
+
+// Qual é o nome do terceiro objeto?
+console.log("B) Nome do 3º objeto:", especiesvenenosas[2].nome);
+
+// Quantos itens existem no array?
+console.log("C) Total:", especiesVenenosas.length);
+
+// Imprima o nome de todos os objetos.
+console.log("D) Nomes de todos os objetos:");
+for (let i = 0; i < especiesvenenosas.length; i++) {
+  console.log(especiesvenenosas[i].nome);
+}
+
+// Some o total de estoque de todos os objetos.
+let somaestoque = 0;
+for (let i = 0; i < especiesvenenosas.length; i++) {
+  somaestoque += especiesvenenosas[i].estoque;
+}
+console.log("E) Soma total do estoque:", somaestoque);
+
+// Qual objeto possui maior estoque?
+let insetomaiorestoque = especiesvenenosas[0]; 
+
+for (let i = 1; i < especiesvenenosas.length; i++) {
+  if (especiesvenenosas[i].estoque > insetomaiorestoque.estoque) {
+    insetomaiorestoque = especiesvenenosas[i];
+  }
+}
+
+console.log(
+  "F) Objeto com maior estoque:",
+  insetomaiorestoque.nome,
+  "com",
+  insetomaiorestoque.estoque,
+  "unidades."
+);
+
 // Henrique Morais da Silva
 // RA: 825153822
 // part3.js
