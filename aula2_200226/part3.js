@@ -103,3 +103,59 @@ for (let i = 1; i < concessionariaDeLuxo.length; i++) {
 }
 console.log("F) Objeto com maior estoque:", carroMaiorEstoque.nome, "com", carroMaiorEstoque.estoque, "unidades.");
 
+//Thiago Viana Meira
+//RA: 82424566
+// parte3.js
+console.log("Parte 3");
+
+let especiesvenenosas = [
+  { nome: 'Aranha-armadeira', preco: 500, estoque: 12 },
+  { nome: 'Escorpião-amarelo', preco: 300, estoque: 20 },
+  { nome: 'Viúva-negra', preco: 450, estoque: 8 },
+  { nome: 'Formiga-bala', preco: 150, estoque: 50 },
+  { nome: 'Vespa-mandarina', preco: 600, estoque: 5 },
+  { nome: 'Besouro-bombardeiro', preco: 200, estoque: 18 },
+  { nome: 'Lagarta-de-fogo', preco: 100, estoque: 25 },
+  { nome: 'Centopeia-gigante', preco: 700, estoque: 4 },
+  { nome: 'Mosca-tsé-tsé', preco: 350, estoque: 14 },
+  { nome: 'Carrapato-estrela', preco: 80, estoque: 40 }
+];
+
+// Qual é o preço do segundo objeto?
+console.log("A) Preço do 2º objeto:", especiesvenenosas[1].preco);
+
+// Qual é o nome do terceiro objeto?
+console.log("B) Nome do 3º objeto:", especiesvenenosas[2].nome);
+
+// Quantos itens existem no array?
+console.log("C) Total:", especiesVenenosas.length);
+
+// Imprima o nome de todos os objetos.
+console.log("D) Nomes de todos os objetos:");
+for (let i = 0; i < especiesvenenosas.length; i++) {
+  console.log(especiesvenenosas[i].nome);
+}
+
+// Some o total de estoque de todos os objetos.
+let somaestoque = 0;
+for (let i = 0; i < especiesvenenosas.length; i++) {
+  somaestoque += especiesvenenosas[i].estoque;
+}
+console.log("E) Soma total do estoque:", somaestoque);
+
+// Qual objeto possui maior estoque?
+let insetomaiorestoque = especiesvenenosas[0]; 
+
+for (let i = 1; i < especiesvenenosas.length; i++) {
+  if (especiesvenenosas[i].estoque > insetomaiorestoque.estoque) {
+    insetomaiorestoque = especiesvenenosas[i];
+  }
+}
+
+console.log(
+  "F) Objeto com maior estoque:",
+  insetomaiorestoque.nome,
+  "com",
+  insetomaiorestoque.estoque,
+  "unidades."
+);
