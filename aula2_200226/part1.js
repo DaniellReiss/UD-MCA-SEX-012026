@@ -79,6 +79,7 @@ for (let i = 0; i < carrosSuperCaros.length; i++) {
   console.log(`${i}: ${carrosSuperCaros[i]}`);
 }
 
+
 //Thiago Viana Meira
 //RA: 8224566
 // part1.js
@@ -214,3 +215,36 @@ for (let i = 0; i < jogosFamosos.length; i++) {
 
   console.log(`${i}: ${jogosFamosos[i]} - Gênero: ${genero}`);
 }
+
+// Luan Bezerra Silva
+// RA: 825154264
+// part1.js
+// Criando um array com 20 elementos (filmes)
+let filmes = [
+  'Up:Altas Aventuras', 'Vingadores', 'Bastardos Inglórios', 'A gente se vê ontem', 'La la land', 
+  'Poderoso chefão', 'Superman', 'Jogos Mortais', 'Tenet', 'A origem',
+  'Kick-ass', 'O Menu', 'Star wars', 'Gradiões da Galáxia', 'Your name',
+  'A odisseia', 'Kill bill', 'Fragmentado', 'Esquadrão suicida', 'Hush'
+];
+
+// A. Qual elemento está na posição 0, 7, 11, 15, 18 e 20?
+console.log("Posição 0:", filmes[0]);
+console.log("Posição 7:", filmes[7]);
+console.log("Posição 11:", filmes[11]);
+console.log("Posição 15:", filmes[15]);
+console.log("Posição 18:", filmes[18]);
+console.log("Posição 20:", filmes[20]); 
+
+// B. Qual elemento está na penúltima e última posição?
+console.log("Penúltima:", filmes[filmes.length - 2]);
+console.log("Última:", filmes[filmes.length - 1]);
+
+// C. Quantos elementos existem no array?
+console.log("Total de elementos:", filmes.length);
+
+// D. Adicione um novo elemento ao final do array.
+filmes.push('Kung fu Panda');
+
+// E. Imprima todos os elementos usando um for.
+for (let i = 0; i < filmes.length; i++) {
+  console.log(`Elemento ${i}: ${filmes[i]}`);
