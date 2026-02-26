@@ -158,3 +158,32 @@ console.log("C) Novo estoque atualizado para:", filmedeação.estoque);
 // D. Imprima todas as propriedades no console.
 console.log("D) Imprimindo todas as propriedades no console:");
 console.log(filmedeação);
+
+
+// Isabella Ferreira da Silva
+// RA: 825162315
+// part2.js
+console.log("Parte 2");
+
+// Criando o objeto com as propriedades
+let meuIphoneDosSonhos = {
+  nome: 'iPhone 17 Pro Max',
+  cor: 'Titânio Deserto',
+  preco: 12000, 
+  estoque: 5
+};
+
+// A. Como acessar o nome do objeto?
+console.log("A) Nome do objeto:", meuIphoneDosSonhos.nome);
+
+// B. Como acessar o preço usando colchetes?
+// Essa eu demorei a lembrar na aula, tem que por as aspas!
+console.log("B) Preço usando colchetes:", meuIphoneDosSonhos['preco']);
+
+// C. Atualize o estoque para 80.
+meuIphoneDosSonhos.estoque = 80;
+console.log("C) Novo estoque atualizado para:", meuIphoneDosSonhos.estoque);
+
+// D. Imprima todas as propriedades no console.
+console.log("D) Imprimindo todas as propriedades no console:");
+console.log(meuIphoneDosSonhos);

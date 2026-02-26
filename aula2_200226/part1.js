@@ -247,4 +247,40 @@ filmes.push('Kung fu Panda');
 
 // E. Imprima todos os elementos usando um for.
 for (let i = 0; i < filmes.length; i++) {
+  console.log(`Elemento ${i}: ${filmes[i]}`)};
+
+
+// Isabella Ferreira da silva
+// RA: 825162315
+// part1.js
+  // Criando um array com 20 elementos (animais)
+let animais = [
+  'Cachorro', 'Gato', 'Leão', 'Tigre', 'Elefante', 
+  'Girafa', 'Macaco', 'Urso', 'Lobo', 'Raposa',
+  'Canguru', 'Pinguim', 'Golfinho', 'Tubarão', 'Águia',
+  'Coruja', 'Cobra', 'Jacaré', 'Tartaruga', 'Sapo'
+];
+
+// A. Qual elemento está na posição 0, 7, 11, 15, 18 e 20?
+console.log("Posição 0:", animais[0]);
+console.log("Posição 7:", animais[7]);
+console.log("Posição 11:", animais[11]);
+console.log("Posição 15:", animais[15]);
+console.log("Posição 18:", animais[18]);
+console.log("Posição 20:", animais[20]); // Nota: assim como no original, retornará 'undefined' pois o índice vai de 0 a 19.
+
+// B. Qual elemento está na penúltima e última posição?
+console.log("Penúltima:", animais[animais.length - 2]);
+console.log("Última:", animais[animais.length - 1]);
+
+// C. Quantos elementos existem no array?
+console.log("Total de elementos:", animais.length);
+
+// D. Adicione um novo elemento ao final do array.
+animais.push('Urso Panda');
+
+// E. Imprima todos os elementos usando um for.
+for (let i = 0; i < animais.length; i++) {
+  console.log(`Elemento ${i}: ${animais[i]}`);
+}
   console.log(`Elemento ${i}: ${filmes[i]}`)}; 
