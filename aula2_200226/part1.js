@@ -247,4 +247,4 @@ filmes.push('Kung fu Panda');
 
 // E. Imprima todos os elementos usando um for.
 for (let i = 0; i < filmes.length; i++) {
-  console.log(`Elemento ${i}: ${filmes[i]}`);
+  console.log(`Elemento ${i}: ${filmes[i]}`)}; 
