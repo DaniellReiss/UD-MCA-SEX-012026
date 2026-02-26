@@ -283,3 +283,4 @@ animais.push('Urso Panda');
 for (let i = 0; i < animais.length; i++) {
   console.log(`Elemento ${i}: ${animais[i]}`);
 }
+  console.log(`Elemento ${i}: ${filmes[i]}`)}; 
