@@ -324,3 +324,57 @@ for (let i = 1; i < Fantasias.length; i++) {
   }
 }
 console.log("Objeto com maior estoque:", maiorEstoque.nome, "com", maiorEstoque.estoque, "unidades.");
+
+
+
+//Isabella Ferreira da Silva
+//RA: 825162315
+// parte3.js
+console.log("--- Respostas da Parte 3 ---");
+
+// Criando o array com 10 objetos (Livros e seus dados de venda)
+let livrariaDigital = [
+  { nome: 'Dom Casmurro', preco: 45, estoque: 12 },
+  { nome: 'O Alquimista', preco: 55, estoque: 40 },
+  { nome: '1984', preco: 38, estoque: 25 },
+  { nome: 'O Pequeno Príncipe', preco: 25, estoque: 60 },
+  { nome: 'Sapiens', preco: 70, estoque: 15 },
+  { nome: 'A República', preco: 42, estoque: 8 },
+  { nome: 'Duna', preco: 90, estoque: 0 },
+  { nome: 'O Hobbit', preco: 65, estoque: 22 },
+  { nome: 'Ensaio sobre a Cegueira', preco: 50, estoque: 5 },
+  { nome: 'Harry Potter 1', preco: 80, estoque: 35 }
+];
+
+// A. Qual é o preço do segundo objeto?
+// O índice 1 é o segundo elemento (a gente começa do 0, não esquece!)
+console.log("A) Preço do 2º objeto:", livrariaDigital[1].preco);
+
+// B. Qual é o nome do terceiro objeto?
+console.log("B) Nome do 3º objeto:", livrariaDigital[2].nome);
+
+// C. Quantos itens existem no array?
+console.log("C) Total de itens no array:", livrariaDigital.length);
+
+// D. Imprima o nome de todos os objetos.
+console.log("D) Nome de todos os objetos:");
+for (let i = 0; i < livrariaDigital.length; i++) {
+  console.log(livrariaDigital[i].nome);
+}
+
+// E. Some o total de estoque de todos os objetos.
+let somaestoque1 = 0;
+for (let i = 0; i < livrariaDigital.length; i++) {
+  somaEstoque1 += livrariaDigital[i].estoque; // Pega o valor atual e soma com o próximo
+}
+console.log("E) Soma total do estoque:", somaEstoque1);
+
+// F. Qual objeto possui maior estoque?
+let livroMaiorEstoque = livrariaDigital[0]; 
+
+for (let i = 1; i < livrariaDigital.length; i++) {
+  if (livrariaDigital[i].estoque > livroMaiorEstoque.estoque) {
+    livroMaiorEstoque = livrariaDigital[i];
+  }
+}
+console.log("F) Objeto com maior estoque:", livroMaiorEstoque.nome, "com", livroMaiorEstoque.estoque, "unidades.");
