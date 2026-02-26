@@ -355,7 +355,6 @@ console.log("B) Nome do 3º objeto:", livrariaDigital[2].nome);
 
 // C. Quantos itens existem no array?
 console.log("C) Total de itens no array:", livrariaDigital.length);
-
 // D. Imprima o nome de todos os objetos.
 console.log("D) Nome de todos os objetos:");
 for (let i = 0; i < livrariaDigital.length; i++) {
