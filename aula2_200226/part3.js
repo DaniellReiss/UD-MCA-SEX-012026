@@ -201,20 +201,20 @@ console.log("Lista de nomes:");
 materiaisEscolares.forEach(item => console.log(item.nome));
 
 // E. Some o total de estoque de todos os objetos
-let totalEstoque = 0;
+let totalEstoque1 = 0;
 for (let i = 0; i < materiaisEscolares.length; i++) {
-    totalEstoque += materiaisEscolares[i].estoque;
+    totalEstoque1 += materiaisEscolares[i].estoque;
 }
 console.log("Soma total do estoque:", totalEstoque);
 
 // F. Qual objeto possui maior estoque?
-let maiorEstoque = materiaisEscolares[0];
+let maiorEstoque1 = materiaisEscolares[0];
 for (let i = 1; i < materiaisEscolares.length; i++) {
-    if (materiaisEscolares[i].estoque > maiorEstoque.estoque) {
-        maiorEstoque = materiaisEscolares[i];
+    if (materiaisEscolares[i].estoque > maiorEstoque1.estoque) {
+        maiorEstoque1 = materiaisEscolares[i];
     }
 }
-console.log("Objeto com maior estoque:", maiorEstoque.nome, "com", maiorEstoque.estoque, "unidades.");
+console.log("Objeto com maior estoque:", maiorEstoque1.nome, "com", maiorEstoque1.estoque, "unidades.");
 
 //Igor Euripedes Garcia de Oliveira
 //824117373
@@ -310,20 +310,20 @@ console.log("Lista de nomes:");
 Fantasias.forEach(item => console.log(item.nome));
 
 // E. Some o total de estoque de todos os objetos
-let totalEstoque = 0;
+let totalEstoque2 = 0;
 for (let i = 0; i < Fantasias.length; i++) {
-  totalEstoque += Fantasias[i].estoque;
+  totalEstoque2 += Fantasias[i].estoque;
 }
-console.log("Soma total do estoque:", totalEstoque);
+console.log("Soma total do estoque:", totalEstoque2);
 
 // F. Qual objeto possui maior estoque?
-let maiorEstoque = Fantasias[0];
+let maiorEstoque2 = Fantasias[0];
 for (let i = 1; i < Fantasias.length; i++) {
-  if (Fantasias[i].estoque > maiorEstoque.estoque) {
-      maiorEstoque = Fantasias[i];
+  if (Fantasias[i].estoque > maiorEstoque2.estoque) {
+      maiorEstoque2 = Fantasias[i];
   }
 }
-console.log("Objeto com maior estoque:", maiorEstoque.nome, "com", maiorEstoque.estoque, "unidades.");
+console.log("Objeto com maior estoque:", maiorEstoque2.nome, "com", maiorEstoque2.estoque, "unidades.");
 
 
 
