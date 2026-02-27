@@ -1,30 +1,3 @@
-//Daniel Reis Araújo Borges
-//RA: 825262646
-// part2.js
-console.log("--- Respostas da Parte 2 ---");
-
-// Criando o objeto com as propriedades que o professor pediu
-let minhaCorPerfeita = {
-  nome: 'Roxo Escuro',
-  tipo: 'Acrílica Premium',
-  preco: 500, 
-  estoque: 2
-};
-
-// A. Como acessar o nome do objeto?
-console.log("A) Nome do objeto:", minhaCorPerfeita.nome);
-
-// B. Como acessar o preço usando colchetes?
-console.log("B) Preço usando colchetes:", minhaCorPerfeita['preco']);
-
-// C. Atualize o estoque para 80.
-minhaCorPerfeita.estoque = 80;
-console.log("C) Novo estoque atualizado para:", minhaCorPerfeita.estoque);
-
-// D. Imprima todas as propriedades no console.
-console.log("D) Imprimindo todas as propriedades no console:");
-console.log(minhaCorPerfeita);
-
 //Vitor Bispo Borges
 //RA: 825242612
 // part2.js
@@ -187,3 +160,57 @@ console.log("C) Novo estoque atualizado para:", meuIphoneDosSonhos.estoque);
 // D. Imprima todas as propriedades no console.
 console.log("D) Imprimindo todas as propriedades no console:");
 console.log(meuIphoneDosSonhos);
+
+//Cauê Lemos de Carvalho
+//RA: 825148851
+// part2.js
+console.log("Parte 2");
+
+// Criando o objeto com as propriedades que o professor pediu
+let timepaulista = {
+  nome: 'Corinthians',
+  cor: 'Preto e Branco',
+  preco: 200,
+  estoque: 1
+};
+
+// Como acessar o nome do objeto?
+console.log("A) Nome do objeto:", timepaulista.nome);
+
+// Como acessar o preço usando colchetes?
+console.log("B) Preço usando colchetes:", timepaulista['preco']);
+
+// Atualize o estoque para 80.
+timepaulista.estoque = 80;
+console.log("C) Novo estoque atualizado para:", timepaulista.estoque);
+
+// D. Imprima todas as propriedades no console.
+console.log("D) Imprimindo todas as propriedades no console:");
+console.log(timepaulista);
+
+//Daniel Reis Araújo Borges
+//RA: 825262646
+// part2.js
+console.log("--- Respostas da Parte 2 ---");
+
+// Criando o objeto com as propriedades que o professor pediu
+let minhaCorPerfeita = {
+  nome: 'Roxo Escuro',
+  tipo: 'Acrílica Premium',
+  preco: 500, 
+  estoque: 2
+};
+
+// A. Como acessar o nome do objeto?
+console.log("A) Nome do objeto:", minhaCorPerfeita.nome);
+
+// B. Como acessar o preço usando colchetes?
+console.log("B) Preço usando colchetes:", minhaCorPerfeita['preco']);
+
+// C. Atualize o estoque para 80.
+minhaCorPerfeita.estoque = 80;
+console.log("C) Novo estoque atualizado para:", minhaCorPerfeita.estoque);
+
+// D. Imprima todas as propriedades no console.
+console.log("D) Imprimindo todas as propriedades no console:");
+console.log(minhaCorPerfeita);

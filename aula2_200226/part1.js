@@ -79,7 +79,6 @@ for (let i = 0; i < carrosSuperCaros.length; i++) {
   console.log(`${i}: ${carrosSuperCaros[i]}`);
 }
 
-
 //Thiago Viana Meira
 //RA: 8224566
 // part1.js
@@ -284,3 +283,39 @@ for (let i = 0; i < animais.length; i++) {
   console.log(`Elemento ${i}: ${animais[i]}`);
 }
   console.log(`Elemento ${i}: ${filmes[i]}`)}; 
+
+
+// Cauê Lemos de Carvalho
+// RA: 825148851
+// part1.js
+// Criando um array com 20 elementos (Times de Futebol)
+let timesdefutebol = [
+    'Corinthians', 'Santos', 'São Paulo', 'Palmeiras', 'Flamengo', 
+    'Vasco', 'Botafogo', 'Fluminense', 'Internacional', 'Grêmio',
+    'Bahia', 'Ceará', 'Fortaleza', 'Mirassol', 'Goiás',
+    'Remo', 'Cruzeiro', 'Atlético Mineiro', 'Vitória', 'Red Bull'
+];
+
+// A. Qual elemento está na posição 0, 7, 11, 15, 18 e 20?
+console.log("Posição 0:", timesdefutebol[0]);
+console.log("Posição 7:", timesdefutebol[7]);
+console.log("Posição 11:", timesdefutebol[11]);
+console.log("Posição 15:", timesdefutebol[15]);
+console.log("Posição 18:", timesdefutebol[18]);
+console.log("Posição 20:", timesdefutebol[20]); 
+
+// B. Qual elemento está na penúltima e última posição?
+console.log("Penúltima:", timesdefutebol[timesdefutebol.length - 2]);
+console.log("Última:", timesdefutebol[timesdefutebol.length - 1]);
+
+// C. Quantos elementos existem no array?
+console.log("Total de elementos:", timesdefutebol.length);
+
+// D. Adicione um novo elemento ao final do array.
+timesdefutebol.push('Curitiba');
+
+// E. Imprima todos os elementos usando um for.
+for (let i = 0; i < timesdefutebol.length; i++) {
+    console.log(`Elemento ${i}: ${timesdefutebol[i]}`);
+}
+
