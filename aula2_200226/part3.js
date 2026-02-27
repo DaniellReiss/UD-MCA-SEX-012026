@@ -86,11 +86,11 @@ for (let i = 0; i < concessionariaDeLuxo.length; i++) {
 }
 
 // E. Some o total de estoque de todos os objetos.
-let somaEstoquee = 0;
+let somaEstoque2 = 0;
 for (let i = 0; i < concessionariaDeLuxo.length; i++) {
-  somaEstoquee += concessionariaDeLuxo[i].estoque; // Pega o valor atual e soma com o próximo
+  somaEstoque2 += concessionariaDeLuxo[i].estoque; // Pega o valor atual e soma com o próximo
 }
-console.log("E) Soma total do estoque:", somaEstoquee);
+console.log("E) Soma total do estoque:", somaEstoque2);
 
 // F. Qual objeto possui maior estoque?
 // Essa eu tive que pensar um pouco. Comecei chutando que o primeiro é o maior e fui comparando no loop
@@ -137,11 +137,11 @@ for (let i = 0; i < especiesvenenosas.length; i++) {
 }
 
 // Some o total de estoque de todos os objetos.
-let somaestoque = 0;
+let somaEstoque3 = 0;
 for (let i = 0; i < especiesvenenosas.length; i++) {
-  somaestoque += especiesvenenosas[i].estoque;
+  somaEstoque3 += especiesvenenosas[i].estoque;
 }
-console.log("E) Soma total do estoque:", somaestoque);
+console.log("E) Soma total do estoque:", somaEstoque3);
 
 // Qual objeto possui maior estoque?
 let insetomaiorestoque = especiesvenenosas[0]; 
@@ -201,11 +201,11 @@ console.log("Lista de nomes:");
 materiaisEscolares.forEach(item => console.log(item.nome));
 
 // E. Some o total de estoque de todos os objetos
-let totalEstoque1 = 0;
+let totalEstoque4 = 0;
 for (let i = 0; i < materiaisEscolares.length; i++) {
-    totalEstoque1 += materiaisEscolares[i].estoque;
+    totalEstoque4 += materiaisEscolares[i].estoque;
 }
-console.log("Soma total do estoque:", totalEstoque);
+console.log("Soma total do estoque:", totalEstoque4);
 
 // F. Qual objeto possui maior estoque?
 let maiorEstoque1 = materiaisEscolares[0];
@@ -251,11 +251,11 @@ for (let i = 0; i < lojaDeGames.length; i++) {
 }
 
 // E. Some o total de estoque de todos os objetos.
-let somaEstoque = 0;
+let somaEstoque5 = 0;
 for (let i = 0; i < lojaDeGames.length; i++) {
-  somaEstoque += lojaDeGames[i].estoque;
+  somaEstoque5 += lojaDeGames[i].estoque;
 }
-console.log("E) Soma total do estoque:", somaEstoque);
+console.log("E) Soma total do estoque:", somaEstoque5);
 
 // F. Qual objeto possui maior estoque?
 let jogoMaiorEstoque = lojaDeGames[0];
@@ -310,11 +310,11 @@ console.log("Lista de nomes:");
 Fantasias.forEach(item => console.log(item.nome));
 
 // E. Some o total de estoque de todos os objetos
-let totalEstoque2 = 0;
+let totalEstoque6 = 0;
 for (let i = 0; i < Fantasias.length; i++) {
-  totalEstoque2 += Fantasias[i].estoque;
+  totalEstoque6 += Fantasias[i].estoque;
 }
-console.log("Soma total do estoque:", totalEstoque2);
+console.log("Soma total do estoque:", totalEstoque6);
 
 // F. Qual objeto possui maior estoque?
 let maiorEstoque2 = Fantasias[0];
@@ -362,11 +362,11 @@ for (let i = 0; i < livrariaDigital.length; i++) {
 }
 
 // E. Some o total de estoque de todos os objetos.
-let somaestoque1 = 0;
+let somaEstoque7 = 0;
 for (let i = 0; i < livrariaDigital.length; i++) {
-  somaEstoque1 += livrariaDigital[i].estoque; // Pega o valor atual e soma com o próximo
+  somaEstoque7 += livrariaDigital[i].estoque; // Pega o valor atual e soma com o próximo
 }
-console.log("E) Soma total do estoque:", somaEstoque1);
+console.log("E) Soma total do estoque:", somaEstoque7);
 
 // F. Qual objeto possui maior estoque?
 let livroMaiorEstoque = livrariaDigital[0]; 
@@ -410,11 +410,11 @@ console.log("Lista de nomes:");
 timesnaseriea.forEach(item => console.log(item.nome));
 
 // E. Some o total de estoque de todos os objetos
-let totalEstoque = 0;
+let totalEstoque8 = 0;
 for (let i = 0; i < timesnaseriea.length; i++) {
-    totalEstoque += timesnaseriea[i].estoque;
+    totalEstoque8 += timesnaseriea[i].estoque;
 }
-console.log("Soma total do estoque:", totalEstoque);
+console.log("Soma total do estoque:", totalEstoque8);
 
 // F. Qual objeto possui maior estoque?
 let maiorEstoque = timesnaseriea[0];
