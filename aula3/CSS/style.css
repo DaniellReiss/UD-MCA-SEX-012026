@@ -1,1 +1,35 @@
-<!--teste-->
+.Nome {
+    color: rgb(41, 84, 223);
+    padding-left: 40%;
+}
+.Corpo {
+    background-color: rgb(157, 219, 216);
+}
+.formatacao1 {
+    padding-left: 46%;
+    font-family: sans-serif;
+}
+.formatacao2 {
+    padding-left: 44%;
+    font-family: sans-serif;
+}
+.fundo1 {
+        background-color: #0631bd; 
+        padding: 20px;
+        border-top: 5px solid rgb(0, 174, 255)
+}
+a:link {
+    color: rgb(0, 243, 41);
+  }
+  a:visited {
+    color: rgb(235, 231, 40);
+  }
+  .textobase {
+    text-align: center;
+  }
+  .links {
+    padding-left: 47%;
+  }
+  .links2 {
+    padding-left: 42%;
+  }
