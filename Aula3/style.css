@@ -1,0 +1,52 @@
+body {
+    background-color: #f4f4f4; 
+    font-family: Arial, Verdana, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #660000; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+main {
+    margin: 20px;
+}
+
+
+.minha-foto {
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.destaque {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+
+a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
