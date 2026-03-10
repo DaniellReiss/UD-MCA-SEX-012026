@@ -1,0 +1,53 @@
+/* Configurações gerais da página */
+body {
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    font-family: Arial, Verdana, sans-serif; /* Fonte personalizada */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do Header (cor diferente) */
+header {
+    background-color: #003366; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para afastar as coisas e não ficar colado na tela */
+main {
+    margin: 20px;
+}
+
+/* Estilo da foto */
+.minha-foto {
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+}
+
+/* Classe de destaque igual ao exemplo do professor */
+.destaque {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilo das seções normais */
+section {
+    margin-bottom: 20px;
+}
+
+/* Alterando a cor dos links */
+a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efeito quando passa o mouse no link */
+a:hover {
+    text-decoration: underline;
+}
