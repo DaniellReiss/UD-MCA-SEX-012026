@@ -1,0 +1,26 @@
+body {
+
+    background-color: #f5f5f5;
+}
+
+.card-produto {
+
+    transition: 0.3s;
+}
+
+.card-produto:hover {
+
+    transform: scale(1.03);
+}
+
+.imagem-produto {
+
+    height: 200px;
+
+    object-fit: cover;
+}
+
+.favorito {
+
+    border: 3px solid gold;
+}
